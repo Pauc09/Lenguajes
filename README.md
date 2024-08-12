@@ -1,8 +1,12 @@
 # Lenguajes
 Estudiantes de ciencias de la computación
+
 Ana Amador 
+
 Paula Caballero
+
 Daniela López
+
 Alan Osorio
 
 Este proyecto implementa un simulador de un Autómata Finito Determinista (DFA) en C.
