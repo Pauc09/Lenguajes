@@ -19,8 +19,12 @@ Este proyecto implementa un Autómata Finito Determinista (DFA) en lenguaje C, q
 •	Acceso a la terminal de Linux.
 
  # CLONAR EL REPOSITORIO
-     Primero, debes clonar el repositorio que contiene el proyecto. Abre la terminal y ejecuta el siguiente comando: git          `clone <URL_DEL_REPOSITORIO>`
-       Nota: Reemplaza <URL_DEL_REPOSITORIO> con la URL real del repositorio que quieres clonar.
+ 
+     Primero, debes clonar el repositorio que contiene el proyecto. Abre la terminal y ejecuta el siguiente comando: 
+     
+     git `clone <URL_DEL_REPOSITORIO>`
+     
+     Nota: Reemplaza <URL_DEL_REPOSITORIO> con la URL real del repositorio que quieres clonar.
 
    # Navegar al directorio del proyecto
     Una vez clonado el repositorio, navega al directorio del proyecto: 
@@ -29,6 +33,7 @@ Este proyecto implementa un Autómata Finito Determinista (DFA) en lenguaje C, q
 
    # Verificar los archivos
    Asegúrate de que los archivos necesarios están presentes en el directorio. Deberías ver los siguientes tres archivos:
+   
    •  DFA4.c: El archivo de código fuente en C.
    
    • CONFIG.txt: El archivo de configuración que define los estados, el alfabeto y las transiciones del DFA.
@@ -39,8 +44,8 @@ Este proyecto implementa un Autómata Finito Determinista (DFA) en lenguaje C, q
    `Ls`
 
    # Compilar el código fuente
-   Para compilar el archivo DFA4.c, necesitas utilizar el compilador GCC. Ejecuta el siguiente comando en la terminal:
-   `Gcc DFA4.c -o dfa.out`
+   Para compilar el archivo DFA4.c, necesitas utilizar el compilador gCC. Ejecuta el siguiente comando en la terminal:
+   `gcc DFA4.c -o dfa.out`
    Esto generará un archivo ejecutable llamado en este caso `dfa.out`
    
    # Ejecutar el programa
