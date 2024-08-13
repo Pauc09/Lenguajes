@@ -24,13 +24,14 @@ Nota:Compuebe si su entorno de trabajo ya tiene por defecto instalado el compila
  
  Primero, debes clonar el repositorio que contiene el proyecto. Abre la terminal y ejecuta el siguiente comando: 
      
-  git `clone <URL_DEL_REPOSITORIO>`
+  `git clone <URL_DEL_REPOSITORIO>`
      
  Nota: Reemplaza <URL_DEL_REPOSITORIO> con la URL real del repositorio que quieres clonar.
 
  # Navegar al directorio del proyecto
  Una vez clonado el repositorio, navega al directorio del proyecto: 
 `cd <NOMBRE_DEL_DIRECTORIO>`
+
     Nota: Reemplaza <NOMBRE_DEL_DIRECTORIO> con el nombre del directorio que contiene los archivos del proyecto.
 
    # Verificar los archivos
@@ -55,9 +56,9 @@ Nota:Compuebe si su entorno de trabajo ya tiene por defecto instalado el compila
    ` ./dfa.out`
    
    # Configurar y probar el DFA
-   Cuando ejecutes el programa, se te pedirá que ingreses el nombre del archivo de configuración. El archivo de configuración predeterminado es config.txt, que ya está en el directorio del proyecto. Ingresa config.txt cuando se te solicite:
+   Cuando ejecutes el programa, se te pedirá que ingreses el nombre del archivo de configuración. El archivo de configuración predeterminado es Config.txt, que ya está en el directorio del proyecto. Ingresa Config.txt cuando se te solicite:
    ### Ingrese el nombre del archivo de configuración: config.txt
-Luego, se te pedirá que ingreses una cadena para probar. Ingresa la cadena que deseas evaluar según las reglas del DFA definidas en config.txt.
+Luego, se te pedirá que ingreses una cadena para probar. Ingresa la cadena que deseas evaluar según las reglas del DFA definidas en Config.txt.
 
 # Probar múltiples cadenas
 Después de ingresar una cadena, el programa te indicará si la cadena es aceptada o rechazada. Luego, te preguntará si    deseas probar otra cadena. Puedes continuar ingresando cadenas o escribir `no` para finalizar.
