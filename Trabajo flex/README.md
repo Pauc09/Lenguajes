@@ -46,12 +46,14 @@ Para cada ejercicio, sigue estos pasos:
    
 3. Compila el código C generado:
    ```bash
-   gcc lex.yy.c -o Ejecutable -lm
+   gcc lex.yy.c -o Ejecutable -lfl
    
 4. Ejecuta el programa:
    ```bash
    ./Ejecutable
 
+5. Ingresar los valores que desee en cada porgrama a ejecutar y que sean permitidos segun las instruciones de cada respectivo README del ejercicio.
+   
 ###Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras un problema o tienes una mejora, no dudes en abrir un issue o enviar un pull request.
