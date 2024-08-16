@@ -6,8 +6,7 @@ Este proyecto contiene un programa en LEX que permite contar el número de líne
 
 El programa en LEX define patrones que permiten identificar y contar los siguientes elementos en un archivo de texto:
 
-- **Líneas**: Se cuenta cada vez que se encuentra un salto de línea (`
-`).
+- **Líneas**: Se cuenta cada vez que se encuentra un salto de línea.
 - **Palabras**: Se cuentan secuencias de caracteres alfanuméricos.
 - **Caracteres**: Se cuenta cada carácter individual, incluidos espacios en blanco, tabulaciones y signos de puntuación.
 
