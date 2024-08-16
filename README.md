@@ -10,3 +10,6 @@
 
 4. Alan Osorio
 
+
+Todos los trabajos se encontrar en una carpera con el respectivo nombre de la actividad.
+
