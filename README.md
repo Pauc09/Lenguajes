@@ -1,11 +1,12 @@
-# Lenguajes
-Estudiantes de ciencias de la computación
+# Repositorio de Lenguajes de Programación
 
-Ana Amador 
+### Estudiantes de ciencias de la computación e IA
 
-Paula Caballero
+1. Ana Amador 
 
-Daniela López
+2. Paula Caballero
 
-Alan Osorio
+3. Daniela López
+
+4. Alan Osorio
 
