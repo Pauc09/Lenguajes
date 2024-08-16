@@ -51,8 +51,8 @@ Nota:Compuebe si su entorno de trabajo ya tiene por defecto instalado el compila
    - Archivo principal: `ejercicio4.l`
    
 5. **Ejercicio 5**: Clasificación de números complejos.
-   - Carpeta: `Ej5./`
-   - Archivo principal: `Ej5.l`
+   - Carpeta: `FLEX_Ejercicio5./`
+   - Archivo principal: `ejercicio5.l`
 
 ## Instrucciones para Compilación y Ejecución
 
