@@ -1,6 +1,6 @@
 # Ejercicios en LEX
 
-En esta carpeta se encuentra 5 ejercicios diferentes para aprender a manejar la herramienta lex. Cada ejercicio está ubicado en su propia carpeta, y debes navegar a cada una de ellas para compilar y ejecutar el programa correspondiente.
+En esta carpeta se encuentran 5 ejercicios diferentes para aprender a manejar la herramienta flex con el leguaje C. Cada ejercicio está ubicado en su propia carpeta, y debes navegar a cada una de ellas para compilar y ejecutar el programa correspondiente.
 
 ## Estructura del Proyecto
 
