@@ -6,6 +6,32 @@ En esta carpeta se encuentran 5 ejercicios diferentes para aprender a manejar la
 
 El proyecto está organizado en carpetas, cada una conteniendo un ejercicio específico. A continuación, se describe cómo acceder a cada carpeta y ejecutar los programas.
 
+# Requisitos
+•	Sistema operativo Linux.
+
+•	Compilador de C (gcc) y compilador FLEX.
+
+•	Acceso a la terminal de Linux.
+
+Nota:Compuebe si su entorno de trabajo ya tiene por defecto instalado el compilador de C y FLEX.
+
+ # CLONAR EL REPOSITORIO
+ 
+ Primero, debes clonar el repositorio que contiene el proyecto. Abre la terminal y ejecuta el siguiente comando: 
+     
+  `git clone <URL_DEL_REPOSITORIO>`
+     
+ Nota: Reemplaza <URL_DEL_REPOSITORIO> con la URL real del repositorio que quieres clonar.
+
+ # Navegar al directorio del proyecto
+ Una vez clonado el repositorio, navega al directorio del proyecto: 
+`cd <NOMBRE_DEL_DIRECTORIO>`
+
+    Nota: Reemplaza <NOMBRE_DEL_DIRECTORIO> con el nombre del directorio que contiene los archivos del proyecto.
+
+   # Verificar los archivos
+   Asegúrate de que los archivos necesarios están presentes en el directorio.
+
 ### Ejercicios Disponibles
 
 1. **Ejercicio 1**: Contar líneas, palabras y caracteres.
