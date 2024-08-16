@@ -20,12 +20,12 @@ Ya en la carpeta correcta, haga lo siguiente:
 
 - Para compilar el archivo LEX ingrese el siguiente comando:  
   ```bash
-  lex Ej5.l
+  flex Ej5.l
   ```
 
 - Para compilar el código C generado:  
   ```bash
-  gcc lex.yy.c -o Ejecutable5 -lm
+  gcc lex.yy.c -o Ejecutable5 -lfl
   ```
 
 - Para la ejecución:  
