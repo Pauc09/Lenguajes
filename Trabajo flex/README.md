@@ -54,6 +54,6 @@ Para cada ejercicio, sigue estos pasos:
 
 5. Ingresar los valores que desee en cada porgrama a ejecutar y que sean permitidos segun las instruciones de cada respectivo README del ejercicio.
    
-###Contribuciones
+### Contribuciones
 
 Las contribuciones son bienvenidas. Si encuentras un problema o tienes una mejora, no dudes en abrir un issue o enviar un pull request.
