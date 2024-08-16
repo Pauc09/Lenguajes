@@ -58,7 +58,7 @@ Primero, debes generar el archivo C a partir del archivo LEX utilizando FLEX. Ej
 `flex calculadora.l`
 Esto creará un archivo llamado  `lex.yy.c` en el mismo directorio.
 A continuación, compila el archivo `lex.yy.c` utilizando `gcc`:
-'gcc lex.yy.c -o calculadora -lfl'
+`gcc lex.yy.c -o calculadora -lfl`
 Este comando generará un archivo ejecutable llamado 'calculadora'.
 ## Ejecutar el Programa
 Una vez que hayas compilado el código, puedes ejecutar el programa utilizando el archivo ejecutable `calculadora`. Ejecuta el siguiente comando:
