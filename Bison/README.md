@@ -14,6 +14,7 @@ Este proyecto es una calculadora simple implementada utilizando Bison (Yacc) y F
 ## Archivos
 - **Calculadora.y**: El archivo Bison que contiene las reglas gramaticales y el manejo de errores.
 - **Calculadora.l**: El archivo Flex para el análisis léxico y la generación de tokens.
+- **Explicación.pdf**: Archvo en donde se explica como funciona el Lexer y a su vez con el, se puede crear un arbol de sintaxis.
 
 ## Instrucciones de Compilación
 
