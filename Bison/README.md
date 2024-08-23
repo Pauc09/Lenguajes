@@ -35,7 +35,7 @@ Este proyecto es una calculadora simple implementada utilizando Bison (Yacc) y F
    ```sh
     bison --version
     ```
-**----------------------------------------------Fin de la instalación----------------------------------------------**
+**---------------------------------------------------------------- Fin de la instalación ----------------------------------------------------------------**
 
 
 ### Pasos a seguir para compilación correcta:
