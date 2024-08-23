@@ -22,17 +22,17 @@ Este proyecto es una calculadora simple implementada utilizando Bison (Yacc) y F
 - Flex instalado
 ### si no tienes instalado Bison sigue los siguientes pasos desde la terminal de linux:
 1. **actualizar la lista de paquetes**
-       ```sh
+   ```sh
     sudo apt-get update
     ```
 
 2. **Instalar Bison:**
-       ```sh
+    ```sh
     sudo apt-get install bison
     ```
 
 3. **Verificar la instalación:**
-       ```sh
+   ```sh
     bison --version
     ```
 **-----------------Fin de la instalación--------------------**
