@@ -20,8 +20,25 @@ Este proyecto es una calculadora simple implementada utilizando Bison (Yacc) y F
 ### Requisitos
 - Bison instalado
 - Flex instalado
+### si no tienes instalado Bison sigue los siguientes pasos desde la terminal de linux:
+1. **actualizar la lista de paquetes**
+       ```sh
+    sudo apt-get update
+    ```
 
-### Pasos
+2. **Instalar Bison:**
+       ```sh
+    sudo apt-get install bison
+    ```
+
+3. **Verificar la instalación:**
+       ```sh
+    bison --version
+    ```
+**-----------------Fin de la instalación--------------------**
+
+
+### Pasos a seguir para compilación correcta:
 1. **Compilar el archivo Flex**: 
     ```sh
     flex Calculadora.l
