@@ -129,6 +129,9 @@ Este archivo es el "cerebro" de la calculadora. Aquí es donde se calculan las o
 - **Operaciones Básicas:** Suma, resta, multiplicación y división.
 - **Manejo de Errores:** Si hay un error en la expresión (como dividir por cero), la calculadora lo maneja.
 
+### `Calculadora.g4`
+Este archivo define la gramática para la calculadora. Describe cómo se deben interpretar las expresiones matemáticas.
+
 ## Requisitos
 
 - **Java:** Necesitas tener Java instalado en tu computadora para compilar y ejecutar la calculadora.
