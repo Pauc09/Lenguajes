@@ -108,7 +108,8 @@ java Calculator
 - **Multiplicación:** `2 * 3` te dará `6`.
 - **Orden de operaciones:** `2 + 3 * 4` te dará `14` porque la multiplicación se hace antes que la suma.
 - **Operación con parentesis:** `(2+3)+(12/3)` te dara `8`.
-- **División:** `24/2` te dara `12`, pero si dividimos cualquier numero por `0` la respuesta sera de infinito porque matemáticamente no hay un número finito que pueda multiplicarse por 0 para obtener el número original
+- **División:** `24/2` te dará `12`, pero si dividimos cualquier numero por `0` la respuesta sera de infinito porque matemáticamente no hay un número finito que pueda multiplicarse por 0 para obtener el número original
+- **Valor absoluto:** `ABS -5` te dará `5` ya que el valor absoluto convierte a positivo los numeros negativos
 - **Salir:** Escribe `salir` para cerrar la calculadora.
 
 ## Estructura del Código
