@@ -2,11 +2,46 @@
 
 ## Introducción
 
- Este proyecto implementa una calculadora en ANTLR que permite evaluar expresiones matemáticas como `3 + 4` o `5 * 6`, y obtener el resultado en la pantalla. La calculadora es simple, interactiva, y puede manejar operaciones básicas como suma, resta, multiplicación y división entre otras.
+Este proyecto implementa una calculadora en ANTLR que permite evaluar expresiones matemáticas y obtener el resultado en la pantalla. La calculadora es simple, interactiva, y puede manejar operaciones básicas como suma, resta, multiplicación, división y valor absuluto.
+
+## Instalación de ANTLR en Kali Linux
+#### 1. Instalar Java:
+Asegúrate de tener Java instalado en tu sistema. Puedes instalarlo usando el siguiente comando:
+```bash
+sudo apt-get update
+sudo apt-get install openjdk-11-jdk
+```
+#### 2. Descargar ANTLR:
+Descarga el archivo JAR de ANTLR desde el sitio web oficial:
+```bash
+wget https://www.antlr.org/download/antlr-4.13.0-complete.jar
+```
+
+#### 3. Configurar ANTLR:
+Coloca el archivo JAR descargado en un directorio de tu elección y configura la variable de entorno CLASSPATH. Por ejemplo:
+```bash
+export CLASSPATH=".:/path/to/antlr-4.13.0-complete.jar"
+```
+Agrega esto a tu archivo ~/.zshrc para que se configure automáticamente cada vez que abras una terminal.
+
+#### 4. Agregar el comando ANTLR:
+Crea un alias para el comando ANTLR:
+```bash
+alias antlr4='java -jar /path/to/antlr-4.13.0-complete.jar'
+```
+Nuevamente, agrega esto a tu archivo ~/.zshrc para que se configure automáticamente.
+
+#### 5. Instalar el complemento de Java para ANTLR:
+Instala el complemento necesario para generar los archivos de código Java desde el archivo de gramática:
+````bash
+alias grun='java org.antlr.v4.gui.TestRig'
+````
+Agrega esto a tu archivo ~/.zshrc si es necesario.
+------------------------------------FIN DE LA INSTALACIÓN ------------------------------------
 
 ## ¿Qué hace este proyecto?
 
-- **Evalúa Expresiones Matemáticas:** Puedes ingresar una expresión como `2 + 3 * 4` y la calculadora te dará el resultado correcto, siguiendo las reglas matemáticas.
+- **Evalúa Expresiones Matemáticas:** Puedes ingresar una expresión como `2 + 3 * 4, 2+(2*2)` y la calculadora te dará el resultado correcto, siguiendo las reglas matemáticas.
 - **Muestra el Árbol de Sintaxis:** Después de ingresar una expresión, la calculadora también te mostrará el "árbol de sintaxis", que es una representación visual de cómo la calculadora entiende la expresión.
 - **Interactivo y Fácil de Usar:** Solo escribe tu expresión y presiona enter. Si quieres salir, simplemente escribe `salir`.
 
@@ -17,30 +52,50 @@
 
 ## Pasos para Usar la Calculadora
 
-### 1. Clonar o Descargar el Proyecto
+#### 1. Clonar o Descargar el Proyecto
 
 Primero, necesitas tener el código en tu computadora. Puedes descargarlo o clonarlo desde la carpeta del repositorio.
 
-### 2. Compilar el Código
+#### 2. Crear los Archivos de Gramática, Crea un directorio de trabajo:
 
-Abre la terminal y asegúrate de estar en la carpeta donde descargaste el proyecto. Luego, ejecuta el siguiente comando para compilar el código:
+````bash
+mkdir ~/antlr_calculator
+cd ~/antlr_calculator
+````
+Crea el archivo de gramática para la calculadora: Utiliza nano para crear un archivo llamado Calculator.g4.
+````bash
+nano Calculator.g4
+````
 
+#### 3. Generar el Código con ANTLR
+Genera el código:
+````bash
+antlr4 Calculator.g4
+````
+Esto creará varios archivos Java que ANTLR usa para manejar la gramática.
+Compila los archivos generados:
 ```bash
 javac *.java
 ```
-
 Esto va a crear los archivos necesarios para que la calculadora funcione.
 
-### 3. Ejecutar la Calculadora
+#### 4. Crear el Código para la Calculadora
+Crea el archivo de código en Java: Utiliza nano para crear un archivo llamado Calculator.java.
+````bash
+nano Calculator.java
+````
+Compila el archivo Calculator.java:
+````bash
+javac Calculator.java
+````
 
-Una vez que el código esté compilado, puedes ejecutar la calculadora con el siguiente comando:
+#### 5. Ejecutar la Calculadora
+Ejecuta el programa de la calculadora:
+````bash
+java Calculator
+````
 
-```bash
-java Calculadora
-```
-
-### 4. Usar la Calculadora
-
+#### 6. Usar la Calculadora
 - **Escribe una expresión:** Por ejemplo, `2 + 3 * 4`.
 - **Ver el resultado:** La calculadora te mostrará el resultado inmediatamente.
 - **Ver el árbol de sintaxis:** También te mostrará cómo la calculadora entiende la expresión.
@@ -51,6 +106,8 @@ java Calculadora
 - **Suma:** `3 + 5` te dará `8`.
 - **Multiplicación:** `2 * 3` te dará `6`.
 - **Orden de operaciones:** `2 + 3 * 4` te dará `14` porque la multiplicación se hace antes que la suma.
+- **Operación con parentesis:** `(2+3)+(12/3)` te dara `8`.
+- **División:** `24/2` te dara `12`, pero si dividimos cualquier numero por `0` la respuesta sera de infinito porque matemáticamente no hay un número finito que pueda multiplicarse por 0 para obtener el número original
 - **Salir:** Escribe `salir` para cerrar la calculadora.
 
 ## Estructura del Código
