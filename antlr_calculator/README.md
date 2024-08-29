@@ -37,6 +37,7 @@ Instala el complemento necesario para generar los archivos de código Java desde
 alias grun='java org.antlr.v4.gui.TestRig'
 ````
 Agrega esto a tu archivo ~/.zshrc si es necesario.
+
 ------------------------------------FIN DE LA INSTALACIÓN ------------------------------------
 
 ## ¿Qué hace este proyecto?
