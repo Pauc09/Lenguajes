@@ -7,7 +7,7 @@
 ##### Alan Steve OSorio Zuluaga 
 ##### Paula Caballero 
 
-
+##
 Este proyecto implementa un analizador léxico en Python para procesar un código fuente, identificando y clasificando los diferentes tokens presentes en el archivo.
 
 ## ¿Qué hace?
