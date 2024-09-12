@@ -1,6 +1,13 @@
 
 # Proyecto de Analizador Léxico en Python
 
+### Integrantes:
+#### Daniela López Rincón
+#### Ana Maria Amador León 
+#### Alan Steve OSorio Zuluaga 
+#### Paula Andrea Caballero 
+
+
 Este proyecto implementa un analizador léxico en Python para procesar un código fuente, identificando y clasificando los diferentes tokens presentes en el archivo.
 
 ## ¿Qué hace?
