@@ -41,11 +41,28 @@ def tokenize(code, errores):
     start_column = -1  # Para almacenar la columna donde comienza la comilla inicial
     i = 0
     code_length = len(code)
+    in_docstring = False  # Indica si estamos dentro de un docstring
+
 
     error_detected = False
 
     while i < code_length and not error_detected:
         char = code[i]
+        
+        # Detectar el inicio o fin de un docstring
+        if not in_docstring and code[i:i+3] == '"""':
+            in_docstring = True
+            i += 3
+            continue
+        elif in_docstring and code[i:i+3] == '"""':
+            in_docstring = False
+            i += 3
+            continue
+
+        # Si estamos dentro de un docstring, ignorar el contenido
+        if in_docstring:
+            i += 1
+            continue
 
         if char == '\n':
             if current_word:
