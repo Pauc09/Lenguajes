@@ -67,10 +67,9 @@ python main.py
 
 1. **Gramática 1:**
 ```
-S -> a B
-B -> b B | ε
+S -> x S y | y S x | ε
 ```
-   - Cadenas válidas: `a`, `ab`, `abb`, `abbb`, `abbbb`.
+   - Cadenas válidas: `xy`, `yx`, `xxyy`, `yyxx`, `xyxy`.
 
 2. **Gramática 2:**
 ```
