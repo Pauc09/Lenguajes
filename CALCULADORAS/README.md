@@ -42,14 +42,14 @@ gcc EXP1.tab.c lex.yy.c -o EXP1
 #### Para EXP2
 ```bas
 bison -d EXP2.y
-flex calculator2.l
+flex calculator.l
 gcc EXP2.tab.c lex.yy.c -o EXP2
 ```
 
 #### Para EXP3
 ```bash
 bison -d EXP3.y
-flex calculator3.l
+flex calculator.l
 gcc EXP3.tab.c lex.yy.c -o EXP3
 ```
 
