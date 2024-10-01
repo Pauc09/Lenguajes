@@ -29,7 +29,7 @@ sudo apt update
 sudo apt install bison flex
 ```
 ## Instrucciones de Compilación
-Al ingresar se encuentran 3 carpetas nombradas ```bash 'EXP1', 'EXP2', 'EXP3'``` dentro de cada una de ellas se encuentran los archivos referentes a cada gramatica es decir esta el ```bash .y``` y el ```bash .l``` para poder hacer la respectiva compilación.
+Al ingresar se encuentran 3 carpetas nombradas ```'EXP1', 'EXP2', 'EXP3'``` dentro de cada una de ellas se encuentran los archivos referentes a cada gramatica es decir esta el ```.y``` y el ```.l``` para poder hacer la respectiva compilación.
 
 Para compilar el proyecto, ejecuta los siguientes comandos en la terminal:
 
