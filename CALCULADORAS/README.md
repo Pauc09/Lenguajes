@@ -64,8 +64,10 @@ Una vez compiladas, puedes ejecutar cada calculadora de la siguiente manera:
 
 ## Ejemplo de Uso:
 ```bash
-> 2 + 3 * 4
-= 14  # Para EXP1 y EXP3
-> 2 + 3 * 4
-= 20  # Para EXP2
+> 2 + 2 * (2+2)
+= 10  # Para EXP1 
+> 2 + 2 * (2+2)
+= 16  # Para EXP2
+> 2 + 2 * (2+2)
+= 16  # Para EXP3
 ```
